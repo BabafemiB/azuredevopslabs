@@ -89,7 +89,7 @@ In this lab, you will learn how to configure continuous integration (CI) and con
     ![](images/015.png)
 
 1. If you want to review an earlier task, you can scroll the right pane to review its logs.
-
+    ![](images/016-00.png)
 1. The build should eventually succeed. You can return to the summary view by clicking the back button.
 
     ![](images/016-01.png)
