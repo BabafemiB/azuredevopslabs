@@ -74,16 +74,23 @@ Run the pipeline to provision the resources using ARM templates and deploy the N
 
 ## Exercise 2: Configuring the Azure DevOps pipeline
 
-1. Naviget to Pipelines and select the pipeline **ContosoAirWebCI**. Click on **Run Pipeline** and click on **Run** to trigger the pipeline.
+1. Naviget to Pipelines and select the pipeline **ContosoAirWebCI** and **Edit** the pipeline.
 
-    ![](images/007.png)
+    ![](images/013.png)
+
+1. Scroll down to **AzureResourceManagerTemplateDeployment** and click on the setting to open the task assistant. 
+
+1. Update the Service connection details using the Task assistant, click on **Validate and Save** and **Save**, commit directly to the master branch to save the pipeline.
+
+    ![](images/014.png)
+
+
+1. Once you commit on to the master branch, the pipeline will be triggered automatically.
 
 
     ![](images/008.png)
 
 1. Once the pipeline is completed, navigate to the Azure portal and verify the resources provisioned.
-
-    ![](images/009.png)
 
     ![](images/010.png)
 
