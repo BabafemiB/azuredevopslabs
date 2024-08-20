@@ -2,8 +2,8 @@
 title: Deploying a Node js application to Azure
 layout: page
 sidebar: vsts2
-permalink: /labs/vstsextend/tomcat/
-folder: /labs/vstsextend/tomcat/
+permalink: /labs/vstsextend/nodejs/
+folder: /labs/vstsextend/nodejs/
 ---
 
 <div class="rw-ui-container"></div>
